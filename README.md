@@ -1,23 +1,56 @@
-**Health Insurance Premium Predictor**
+# **Health Insurance Premium Predictor**
 
-I implemented  Medical Insurance Cost Prediction  system using Random forest model 
+A machine learning application that predicts medical insurance premiums based on factors such as age, BMI, gender, number of children, region, and smoking status.
 
-Over the past few days, I built and worked on a machine learning model that predicts an individual’s medical insurance cost based on factors like age, BMI, gender, number of children, region, and smoking habits.
+## 🏗️** Architecture**
 
-**Here’s what I worked on :**
- -> Performed data cleaning and feature engineering (including One-Hot encoding ).
-->Explored different regression models like Decision Tree, and Random Forest.
-->Used GridSearchCV for hyperparameter tuning, and the optimized Random Forest model gave the best performance and accuracy 
--> Evaluated the model using R² score, MAE, and RMSE.
--> Saved and deployed the model using joblib/streamlit for easy use.
+```text
+User Input
+    ↓
+Data Preprocessing
+    ↓
+Feature Engineering
+    ↓
+One-Hot Encoding
+    ↓
+Random Forest Regression
+    ↓
+Predicted Insurance Premium
+    ↓
+Streamlit Application
+🔄 **Workflow**
+Data Cleaning & EDA
+Feature Engineering
+One-Hot Encoding
+Model Training
+Hyperparameter Tuning using GridSearchCV
+Model Evaluation
+Model Serialization using Joblib
+Streamlit Deployment
 
-  **Model Performance:**
-> R2 Score : 0.87
-> MAE Score: 2356.3
->RMSE: 4386.0
-> CV value : 0.84
-This improved prediction accuracy by over 15% compared to baseline models
+ **Model Performance**
+Metric	Score
+R² Score	0.87
+MAE	2356.3
+RMSE	4386.0
+Cross-Validation	0.84
+ **Models**
+Decision Tree Regressor
+Random Forest Regressor
+Optimized Random Forest using GridSearchCV
+🖥️ Application
 
-**Tech Stack:** -Python, Pandas, Scikit-learn, NumPy, Matplotlib, Seaborn, Streamlit
+🛠️ **Tech Stack**
 
-**This project helped me understand the complete end-to-end ML workflow — from data preprocessing to model deployment
+Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · Joblib · Streamlit
+
+🚀 **Run Locally**
+pip install -r requirements.txt
+streamlit run app1.py
+
+📌 **Key Learning**
+
+Built an end-to-end machine learning pipeline covering data preprocessing, feature engineering, model training, hyperparameter tuning, evaluation, model saving, and deployment.
+
+
+### **Images**
